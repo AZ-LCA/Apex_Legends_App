@@ -2,6 +2,7 @@ import { render } from '@testing-library/react';
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import apiUrl from './../apiConfig';
 // Found template in technical docs
 function WeaponModal(props) {
     const [show, setShow] = useState(false);
@@ -25,7 +26,7 @@ function WeaponModal(props) {
             <Modal.Title>{props.weapon.weaponName} │││ {props.weapon.weaponType}</Modal.Title>
             </Modal.Header>
             <Modal.Body className='modal-body'>
-            <img className='responsiveImage' src={`http://localhost:5001${props.weapon.weaponImg}`} crossOrigin='anonymous' alt={'Fetching...'}/>
+            <img className='responsiveImage' src={`${apiUrl}${props.weapon.weaponImg}`} crossOrigin='anonymous' alt={'Fetching...'}/>
             DPS: {props.weapon.stats.dps} <br/>
             RPM: {props.weapon.stats.rpm} <br/>
             Ammo Type: {props.weapon.stats.ammoType.charAt(0).toUpperCase() + props.weapon.stats.ammoType.slice(1)}
