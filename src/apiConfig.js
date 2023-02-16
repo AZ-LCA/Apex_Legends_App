@@ -1,8 +1,7 @@
 let apiUrl;
-const expressPort = 5001;
 const apiUrls = {
-    development: `http://localhost:${expressPort}`,
-    production: `https://example.domain.com`
+    development: `http://localhost:5001`,
+    production: `https://apex-legends-app.fly.dev`
 }
 
 if(window.location.hostname === 'localhost') {
