@@ -82,8 +82,10 @@ Along these we have accomplished to upload images and made the application more 
 
 <hr>
 Justin:
+- Enjoyed working in a team as I felt like we utilised each other well. I certainly felt like the other 2 took the lead on things I would have struggled with.
+- In terms of coding techniques, learnt a lot about authentication, uploading and storing images as different file types
 <hr>
-Leon:
+Leon: Working with others has been good fun. I have been luckky do team coding projects before, so this was not a new experience to me. Learning about refresh tokens was a lot of fun and they were very convenient for allowing continued secure access to the webpage.
 <hr>
 Noni: I was very nervous about working in a group as I have never worked alongside anyone to build a project but it all faded away as we started. I did struggle with setting up my components in the right order which resolted in major errors but I managed to clear everything up and it makes complete sense now.
 <hr>
